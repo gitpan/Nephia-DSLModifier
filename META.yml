@@ -3,6 +3,7 @@ abstract: 'DSL Modifier feature for Nephia'
 author:
   - 'ytnobody <ytnobody@gmail.com>'
 build_requires:
+  Capture::Tiny: 0
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
@@ -27,11 +28,12 @@ no_index:
 provides:
   Nephia::DSLModifier:
     file: lib/Nephia/DSLModifier.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Nephia: 0.23
   perl: 5.008005
 resources:
   bugtracker: https://github.com/ytnobody/Nephia-DSLModifier/issues
   homepage: https://github.com/ytnobody/Nephia-DSLModifier
   repository: git://github.com/ytnobody/Nephia-DSLModifier.git
-version: 0.01
+version: 0.02

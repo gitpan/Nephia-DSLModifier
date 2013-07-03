@@ -40,11 +40,13 @@
       },
       "runtime" : {
          "requires" : {
+            "Nephia" : "0.23",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
+            "Capture::Tiny" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -52,7 +54,7 @@
    "provides" : {
       "Nephia::DSLModifier" : {
          "file" : "lib/Nephia/DSLModifier.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -66,5 +68,5 @@
          "web" : "https://github.com/ytnobody/Nephia-DSLModifier"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
