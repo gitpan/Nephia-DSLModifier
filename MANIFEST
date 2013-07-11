@@ -7,5 +7,7 @@ cpanfile
 lib/Nephia/DSLModifier.pm
 t/00_compile.t
 t/01_dsl_modifier.t
+t/lib/Nephia/Plugin/Test/DSLModifier/Around.pm
+t/lib/Nephia/Plugin/Test/DSLModifier/BeforeAfter.pm
 META.yml
 MANIFEST

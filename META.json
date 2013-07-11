@@ -4,7 +4,7 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3",
+   "generated_by" : "Minilla/v0.5.5",
    "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -54,7 +54,7 @@
    "provides" : {
       "Nephia::DSLModifier" : {
          "file" : "lib/Nephia/DSLModifier.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -68,5 +68,5 @@
          "web" : "https://github.com/ytnobody/Nephia-DSLModifier"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

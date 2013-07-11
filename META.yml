@@ -10,7 +10,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.5.5, CPAN::Meta::Converter version 2.130880'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,7 +28,7 @@ no_index:
 provides:
   Nephia::DSLModifier:
     file: lib/Nephia/DSLModifier.pm
-    version: 0.02
+    version: 0.03
 requires:
   Nephia: 0.23
   perl: 5.008005
@@ -36,4 +36,4 @@ resources:
   bugtracker: https://github.com/ytnobody/Nephia-DSLModifier/issues
   homepage: https://github.com/ytnobody/Nephia-DSLModifier
   repository: git://github.com/ytnobody/Nephia-DSLModifier.git
-version: 0.02
+version: 0.03
